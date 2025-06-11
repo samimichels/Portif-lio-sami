@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="file_00000000c95c6230ad678ead49bd76ea.png" alt="avatar da Sami" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Sami</p>
+        <h1>Sou estudante de Programação</h1>
+        <p>Sou estudante do terceiro ano do Ensino Médio em uma escola pública e estou aprendendo programação pela plataforma Alura. Estou desenvolvendo minhas habilidades em HTML, CSS e JavaScript e criei alguns projetos bem legais. Veja abaixo!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images 1.jpeg" class="card-img-top" alt="Imagem do jogo do Sabo atravessando a rua">
+                    <div class="card-body">
+                        <h5 class="card-title">Sabo na Rua: Um Joguinho de Pular Obstáculos</h5>
+                        <p class="card-text">Este projeto é um jogo onde o personagem Sabo precisa atravessar a rua pulando obstáculos. Foi desenvolvido com HTML, CSS e JavaScript. É uma forma divertida de treinar lógica de programação e manipulação de eventos no navegador.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images 2.png" class="card-img-top" alt="Imagem do jogo de sudoku">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio Sudoku: Um Jogo de Lógica</h5>
+                        <p class="card-text">Este projeto é um jogo de Sudoku feito para estimular o raciocínio lógico. Ele foi programado usando HTML, CSS e JavaScript, com validação das regras do jogo e uma interface simples e funcional.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="logo.png" class="card-img-top" alt="Imagem do sorteador de números">
+                    <div class="card-body">
+                        <h5 class="card-title">Sorteador de Números</h5>
+                        <p class="card-text">Este projeto é um sorteador de números simples, ideal para quem quer fazer sorteios aleatórios em uma faixa definida. Foi desenvolvido em JavaScript e inclui opções básicas de personalização pelo usuário.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sapo na Rua: Um Joguinho de Pular Obstáculos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um jogo simples e divertido, onde o personagem Sabo precisa atravessar a rua pulando os obstáculos que aparecem pelo caminho. O jogo foi desenvolvido com HTML, CSS e JavaScript e usa eventos do teclado para controlar os pulos do personagem.</p>
+                    <p>Foi uma forma prática de aprender sobre animações, detecção de colisões e lógica de programação. O visual é colorido e interativo, e o desafio é conseguir sobreviver o maior tempo possível sem bater em nada!</p>
+                    <img src="images 1.jpeg" class="img-fluid w-100"
+                        alt="Imagem do jogo do Sapo atravessando a rua">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/samimichels/sketches/mgtNesQ_Q">Ver projeto ao vivo</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Desafio Sudoku: Um Jogo de Lógica</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um jogo de Sudoku feito para ajudar a treinar o raciocínio lógico. O usuário pode preencher os campos com números de 1 a 9, seguindo as regras tradicionais do jogo: cada número deve aparecer apenas uma vez em cada linha, coluna e quadrado.</p>
+                    <p>Foi desenvolvido com HTML para a estrutura, CSS para o estilo e JavaScript para toda a lógica de verificação e interação. Esse jogo me ajudou muito a entender estruturas de repetição e condições no JavaScript.</p>
+                    <img src="images 2.png" class="img-fluid w-100"
+                        alt="Imagem do jogo de sudoku">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/samimichels/sketches/KeQdHhmkZ">Ver projeto ao vivo</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sorteador de Números</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um sorteador de números que permite ao usuário definir um intervalo e sortear valores aleatórios dentro dele. É um projeto simples, mas útil, e serve como base para diversas outras ideias de projetos interativos.</p>
+                    <p>O desenvolvimento envolveu HTML e CSS para a interface, e JavaScript para a lógica de sorteio. Trabalhei com geração de números aleatórios, manipulação do DOM e criação de eventos. Foi ótimo para praticar fundamentos do JavaScript.</p>
+                    <img src="logo.png" alt="Sorteador de números" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/samimichels/sketches/OQTkhck59">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/samimichels">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025 Produzido por Sami</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
